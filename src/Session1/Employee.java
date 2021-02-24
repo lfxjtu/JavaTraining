@@ -1,3 +1,8 @@
+/**
+ * This is a class to accommodate employee data
+ * version: 0.1
+ * author: Fang Liu
+ */
 package Session1;
 
 public class Employee {
