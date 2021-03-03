@@ -11,5 +11,20 @@ public class Employee {
     String gender;
     String address;
     Float salary;
+
+    //This is to initialise an employee with given data;
+    public Employee(String name1, Integer joiningYear1, String gender1, String address1, Float salary1) {
+        name = name1;
+        joiningYear = joiningYear1;
+        gender = gender1;
+        address = address1;
+        salary = salary1;
+    }
+
+    //This is to print the employee data;
+    public void printEmployeeInfo() {
+        System.out.printf("%s       %d        %s      %s       %.2f \n", name, joiningYear, gender, address, salary);
+
+    }
 }
 
