@@ -3,7 +3,7 @@
  * version: 0.1
  * author: Fang Liu
  */
-package Session3;
+package JavaTraining.Assignment3_PrintEmployee;
 
 public class Employee {
     String name;

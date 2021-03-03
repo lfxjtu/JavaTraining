@@ -4,7 +4,7 @@
  * author: Fang Liu
  */
 
-package Session3;
+package JavaTraining.Assignment3_PrintEmployee;
 
 
 public class printEmployee {
