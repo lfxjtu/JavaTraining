@@ -3,7 +3,7 @@
  * version: 0.1
  * author: Fang Liu
  */
-package Session1;
+package Session3;
 
 public class Employee {
     String name;
@@ -23,7 +23,7 @@ public class Employee {
 
     //This is to print the employee data;
     public void printEmployeeInfo() {
-        System.out.printf("%s       %d        %s      %s       %.2f \n", name, joiningYear, gender, address, salary);
+        System.out.printf("%10s,%10d,%10s,%15s,%15.2f\n", name, joiningYear, gender, address, salary);
 
     }
 }
