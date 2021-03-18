@@ -7,6 +7,7 @@ public class testStudentInput {
         System.out.println("branch2 - feature branch");
         System.out.println("change 1 - feature branch");
         System.out.println("branch2 - feature branch");
+        System.out.println("git stash");
     }
 
 }
