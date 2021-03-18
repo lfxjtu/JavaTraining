@@ -5,7 +5,7 @@ public class testStudentInput {
         Student student1 = new Student();
         student1.calculateGrade();
 
-        System.out.println("change 1 - feature branch");
+        System.out.println("change 3 - feature branch");
     }
 
 }
