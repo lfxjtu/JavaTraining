@@ -6,6 +6,7 @@ public class testStudentInput {
         student1.calculateGrade();
         System.out.println("branch2 - feature branch");
         System.out.println("change 1 - feature branch");
+        System.out.println("branch2 - feature branch");
     }
 
 }
