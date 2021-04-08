@@ -8,6 +8,11 @@ public class TestPrimeNumber {
         Scanner scanner = new Scanner(System.in);
         System.out.printf("Please input a positive integer: ");
         numberInput = scanner.nextInt();
+
+        if(numberInput == 1) {
+            System.out.println("1 is not a prime integer.");
+            return;
+        }
         Boolean isPrimeNumber = true;
         for (int i=2; i<numberInput; i++){
             if(numberInput%i==0) {
@@ -16,8 +21,8 @@ public class TestPrimeNumber {
             }
         }
         if(isPrimeNumber){
-            System.out.println("This is a prime number.");
+            System.out.printf("%d is a prime number.",numberInput);
         }else
-            System.out.println("This is not a prime number.");
+            System.out.printf("%d is not a prime number.", numberInput);
     }
 }
