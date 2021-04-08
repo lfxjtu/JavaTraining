@@ -16,11 +16,11 @@ public class TestReverseNumber {
     public static String reverse(int inputInt) {
         String s = String.valueOf(inputInt);
         int len = s.length();
-        StringBuilder dest = new StringBuilder(len);
+        StringBuilder newString = new StringBuilder(len);
 
         for (int i = (len - 1); i >= 0; i--){
-            dest.append(s.charAt(i));
+            newString.append(s.charAt(i));
         }
-        return dest.toString();
+        return newString.toString();
     }
 }
