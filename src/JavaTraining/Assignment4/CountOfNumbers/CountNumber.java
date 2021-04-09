@@ -12,14 +12,14 @@ public class CountNumber {
 
         System.out.print("Please input an integer. input 's' to stop: ");
         Scanner scanner = new Scanner(System.in);
-        while(true){
+        while (true) {
             String nextLine = scanner.nextLine();
-            try{
+            try {
                 nextInt = Integer.parseInt(nextLine);
                 countNumber(nextInt);
-            }catch (NumberFormatException e){
-                if("s".equals(nextLine)){
-                    System.out.printf("finish the count. The total positive input is %d, the total negative input is %d, the total zeros input is %d.",positiveCount,negativeCount,zeroCount);
+            } catch (NumberFormatException e) {
+                if ("s".equals(nextLine)) {
+                    System.out.printf("finish the count. The total positive input is %d, the total negative input is %d, the total zeros input is %d.", positiveCount, negativeCount, zeroCount);
                     return;
                 }
             }
@@ -27,11 +27,11 @@ public class CountNumber {
     }
 
     private static void countNumber(int nextInt) {
-        if(nextInt>0){
-            positiveCount ++;
-        }else if(nextInt<0){
-            negativeCount ++;
-        }else
-            zeroCount ++;
+        if (nextInt > 0) {
+            positiveCount++;
+        } else if (nextInt < 0) {
+            negativeCount++;
+        } else
+            zeroCount++;
     }
 }

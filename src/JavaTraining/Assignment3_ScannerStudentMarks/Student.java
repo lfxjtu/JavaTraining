@@ -39,16 +39,16 @@ First class : Each subject more than 60% marks and total less than 80%
 Second Class : Each Subject more than 40% marks and total less than 60%
 Fail : Any subject less than 35% marks
          */
-        int total = (subject1 + subject2 + subject3 + subject4 + subject5)/5;
-        if (subject1 > 60 && subject2 > 60 && subject2 > 60 && subject2 > 60 && subject2 > 60 && total>80) {
-            System.out.printf("Hi %s, Congratulations ! You passed the exam with a Distinction.",name);
-        }else if (subject1 > 60 && subject2 > 60 && subject3 > 60 && subject4 > 60 && subject5 > 60 && total<=80){
-            System.out.printf("Hi %s, Congratulations ! You passed the exam with a First Class.",name);
-        }else if (subject1 > 40 && subject2 > 40 && subject3 > 40 && subject4 > 40 && subject5 > 40 && total<=60){
-            System.out.printf("Hi %s, Congratulations ! You passed the exam with a Second Class.",name);
-        }else if (subject1 < 35 || subject2 < 35 || subject3 < 35 || subject4 < 35 || subject5 < 35){
-            System.out.printf("Hi %s, You failed the exam.",name);
-        }else
+        int total = (subject1 + subject2 + subject3 + subject4 + subject5) / 5;
+        if (subject1 > 60 && subject2 > 60 && subject2 > 60 && subject2 > 60 && subject2 > 60 && total > 80) {
+            System.out.printf("Hi %s, Congratulations ! You passed the exam with a Distinction.", name);
+        } else if (subject1 > 60 && subject2 > 60 && subject3 > 60 && subject4 > 60 && subject5 > 60 && total <= 80) {
+            System.out.printf("Hi %s, Congratulations ! You passed the exam with a First Class.", name);
+        } else if (subject1 > 40 && subject2 > 40 && subject3 > 40 && subject4 > 40 && subject5 > 40 && total <= 60) {
+            System.out.printf("Hi %s, Congratulations ! You passed the exam with a Second Class.", name);
+        } else if (subject1 < 35 || subject2 < 35 || subject3 < 35 || subject4 < 35 || subject5 < 35) {
+            System.out.printf("Hi %s, You failed the exam.", name);
+        } else
             System.out.printf("Hi %s, Congratulations ! you passed the exam.", name);
     }
 }

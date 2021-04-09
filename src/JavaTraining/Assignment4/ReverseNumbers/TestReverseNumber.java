@@ -18,7 +18,7 @@ public class TestReverseNumber {
         int len = s.length();
         StringBuilder newString = new StringBuilder(len);
 
-        for (int i = (len - 1); i >= 0; i--){
+        for (int i = (len - 1); i >= 0; i--) {
             newString.append(s.charAt(i));
         }
         return newString.toString();

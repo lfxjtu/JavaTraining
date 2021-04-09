@@ -9,14 +9,14 @@ public class NumberGuess {
         Random random = new Random();
         int guess;
         int answer = random.nextInt(100);
-        while(true){
+        while (true) {
             System.out.println("Input a number to guess: ");
             guess = scanner.nextInt();
-            if(guess>answer){
+            if (guess > answer) {
                 System.out.println("Too high, try again.");
-            }else if (guess<answer){
+            } else if (guess < answer) {
                 System.out.println("Too low, try again.");
-            }else{
+            } else {
                 System.out.println("Bingo! you got it!");
                 return;
             }
