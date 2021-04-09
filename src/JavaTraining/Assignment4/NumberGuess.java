@@ -1,4 +1,4 @@
-package JavaTraining.Assignment4.GuessANumber;
+package JavaTraining.Assignment4;
 
 import java.util.Random;
 import java.util.Scanner;

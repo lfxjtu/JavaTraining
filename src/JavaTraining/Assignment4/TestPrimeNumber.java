@@ -1,4 +1,4 @@
-package JavaTraining.Assignment4.PrimeNumber;
+package JavaTraining.Assignment4;
 
 import java.util.Scanner;
 

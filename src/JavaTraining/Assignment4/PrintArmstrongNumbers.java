@@ -1,4 +1,4 @@
-package JavaTraining.Assignment4.ArmstrongNumbers;
+package JavaTraining.Assignment4;
 
 public class PrintArmstrongNumbers {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JavaTraining.Assignment4.ReverseNumbers;
+package JavaTraining.Assignment4;
 
 import java.util.Scanner;
 

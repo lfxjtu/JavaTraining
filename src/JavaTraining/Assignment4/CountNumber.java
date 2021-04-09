@@ -1,4 +1,4 @@
-package JavaTraining.Assignment4.CountOfNumbers;
+package JavaTraining.Assignment4;
 
 import java.util.Scanner;
 
