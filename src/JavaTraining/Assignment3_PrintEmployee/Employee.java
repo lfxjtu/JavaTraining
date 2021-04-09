@@ -5,6 +5,7 @@
  */
 package JavaTraining.Assignment3_PrintEmployee;
 
+
 public class Employee {
     String name;
     Integer joiningYear;
