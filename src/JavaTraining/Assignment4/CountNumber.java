@@ -8,15 +8,15 @@ public class CountNumber {
     static int zeroCount = 0;
 
     public static void main(String[] args) {
-        int nextInt;
+        float nextFloat;
 
-        System.out.print("Please input an integer. input 's' to stop: ");
+        System.out.println("Please input an float number. input 'ENTER' for another number, input 's' to stop: ");
         Scanner scanner = new Scanner(System.in);
         while (true) {
             String nextLine = scanner.nextLine();
             try {
-                nextInt = Integer.parseInt(nextLine);
-                countNumber(nextInt);
+                nextFloat = Float.parseFloat(nextLine);
+                countNumber(nextFloat);
             } catch (NumberFormatException e) {
                 if ("s".equals(nextLine)) {
                     System.out.printf("finish the count. The total positive input is %d, the total negative input is %d, the total zeros input is %d.", positiveCount, negativeCount, zeroCount);
@@ -26,10 +26,10 @@ public class CountNumber {
         }
     }
 
-    private static void countNumber(int nextInt) {
-        if (nextInt > 0) {
+    private static void countNumber(float nextFloat) {
+        if (nextFloat > 0) {
             positiveCount++;
-        } else if (nextInt < 0) {
+        } else if (nextFloat < 0) {
             negativeCount++;
         } else
             zeroCount++;
