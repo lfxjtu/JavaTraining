@@ -1,11 +1,14 @@
 package JavaTraining.Polymorphism.Assignment5;
 
 import JavaTraining.Polymorphism.Assignment4.Square;
+import org.junit.jupiter.api.Test;
 
 public class printAreaof10Squares {
-    public static void main(String[] args) {
+    Square square;
+    @Test
+    public void printAreaof10Squares() {
         for(int i =0; i <10; i++){
-            Square square= new Square(i+5);
+            square= new Square(i+5);
             square.printArea();
         }
     }

@@ -1,7 +1,10 @@
 package JavaTraining.Polymorphism.Assignment1;
 
+import org.junit.jupiter.api.Test;
+
 public class Object {
-    public static void main(String[] args) {
+    @Test
+    public void testParentChild() {
         Parent newParent = new Parent();
         Child newChild = new Child();
         newParent.printParent();

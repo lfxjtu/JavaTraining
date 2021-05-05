@@ -1,7 +1,10 @@
 package JavaTraining.Polymorphism.Assignment4;
 
+import org.junit.jupiter.api.Test;
+
 public class PrintPerimeterAndArea {
-    public static void main(String[] args) {
+    @Test
+    public void PrintPerimeterAndArea() {
         Rectangle rectangle = new Rectangle(10, 20);
         System.out.printf("rectangle length: %d, breadth: %d\n",rectangle.length,rectangle.breadth);
         rectangle.printArea();

@@ -1,8 +1,10 @@
 package JavaTraining.Polymorphism.Assignment3;
 
-public class TestMember {
+import org.junit.jupiter.api.Test;
 
-    public static void main(String[] args) {
+public class TestMember {
+    @Test
+    public void testMember() {
         Member member01 = new Member("John");
         member01.setName("John Lennon");
         member01.setAge(30);
